@@ -1,4 +1,4 @@
-# RCLEA: an educational remake
+# webRCLEA: an educational remake
 
 A modern, extensible, open re-implementation of the UK **Radioactively Contaminated Land Exposure Assessment** (RCLEA) methodology, shipped as:
 
