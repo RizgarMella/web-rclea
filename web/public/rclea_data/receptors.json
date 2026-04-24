@@ -1,0 +1,56 @@
+{
+  "source": "Human sheet, Library column",
+  "age_groups": [
+    "infant",
+    "child",
+    "adult"
+  ],
+  "sexes": [
+    "male",
+    "female"
+  ],
+  "body_weight_kg": {
+    "male": {
+      "infant": 11.0,
+      "child": 37.0,
+      "adult": 81.0
+    },
+    "female": {
+      "infant": 11.0,
+      "child": 37.0,
+      "adult": 68.0
+    }
+  },
+  "respiration_m3_per_h": {
+    "male": {
+      "infant": {
+        "active_m3_per_h": 0.339,
+        "passive_m3_per_h": 0.124
+      },
+      "child": {
+        "active_m3_per_h": 1.103,
+        "passive_m3_per_h": 0.404
+      },
+      "adult": {
+        "active_m3_per_h": 1.456,
+        "passive_m3_per_h": 0.485
+      }
+    },
+    "female": {
+      "infant": {
+        "active_m3_per_h": 0.32,
+        "passive_m3_per_h": 0.117
+      },
+      "child": {
+        "active_m3_per_h": 1.1,
+        "passive_m3_per_h": 0.403
+      },
+      "adult": {
+        "active_m3_per_h": 1.234,
+        "passive_m3_per_h": 0.411
+      }
+    }
+  },
+  "tissue_weighting_factor_uv_skin": 0.01,
+  "uv_exposed_skin_fraction": 0.167
+}

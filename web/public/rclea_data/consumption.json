@@ -1,0 +1,56 @@
+{
+  "source": "Consumption sheet, Library column",
+  "units": "consumption rates: kg fresh weight per kg body weight per year",
+  "by_age": {
+    "infant": {
+      "Brussels Sprouts": 0.4745,
+      "Cabbage": 0.5475,
+      "Carrot": 0.657,
+      "Leafy Salads": 0.4015,
+      "Onion (shallots and leeks)": 0.3358,
+      "Potato": 2.7375
+    },
+    "child": {
+      "Brussels Sprouts": 0.24820000000000003,
+      "Cabbage": 0.22995000000000002,
+      "Carrot": 0.365,
+      "Leafy Salads": 0.19344999999999998,
+      "Onion (shallots and leeks)": 0.22995000000000002,
+      "Potato": 2.0805000000000002
+    },
+    "adult": {
+      "Brussels Sprouts": 0.2555,
+      "Cabbage": 0.24455000000000002,
+      "Carrot": 0.23725,
+      "Leafy Salads": 0.17884999999999998,
+      "Onion (shallots and leeks)": 0.1606,
+      "Potato": 1.2409999999999999
+    }
+  },
+  "crop_meta": {
+    "Brussels Sprouts": {
+      "home_fraction": 0.87,
+      "soil_loading_kg_dw_per_kg_fw": 0.001
+    },
+    "Cabbage": {
+      "home_fraction": 0.92,
+      "soil_loading_kg_dw_per_kg_fw": 0.001
+    },
+    "Carrot": {
+      "home_fraction": 0.7,
+      "soil_loading_kg_dw_per_kg_fw": 0.0001
+    },
+    "Leafy Salads": {
+      "home_fraction": 0.51,
+      "soil_loading_kg_dw_per_kg_fw": 0.001
+    },
+    "Onion (shallots and leeks)": {
+      "home_fraction": 0.91,
+      "soil_loading_kg_dw_per_kg_fw": 0.001
+    },
+    "Potato": {
+      "home_fraction": 0.66,
+      "soil_loading_kg_dw_per_kg_fw": 0.0002
+    }
+  }
+}

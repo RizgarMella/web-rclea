@@ -1,0 +1,231 @@
+{
+  "source": "LandUse sheet, Library column",
+  "scenarios": [
+    {
+      "id": "Residential_with_Home_Grown_Produce",
+      "label": "Residential with Home-Grown Produce",
+      "area_hectares": 0.2,
+      "pathways": {
+        "external": true,
+        "soil_ingestion": true,
+        "skin": true,
+        "inhalation_dust": true,
+        "produce": true,
+        "radon_indoor": true
+      },
+      "dust": {
+        "fraction_indoor_dust_from_local_soil": 0.75,
+        "air_respirable_particles_kg_per_m3": 5e-08
+      },
+      "per_age": {
+        "infant": {
+          "soil_ingestion_kg_per_y": 0.055,
+          "occupancy_indoor_fraction": 0.875,
+          "occupancy_outdoor_fraction": 0.125,
+          "skin_contact_fraction_indoor": 0.5,
+          "active_fraction_indoor": 0.125,
+          "passive_fraction_indoor": 0.75,
+          "skin_contact_fraction_outdoor": 0.178,
+          "active_fraction_outdoor": 0.083,
+          "passive_fraction_outdoor": 0.042,
+          "skin_soil_loading_indoor_mg_per_cm2": 0.06,
+          "skin_exposed_fraction_indoor": 0.33,
+          "skin_soil_loading_outdoor_mg_per_cm2": 1.0,
+          "skin_exposed_fraction_outdoor": 0.26
+        },
+        "child": {
+          "soil_ingestion_kg_per_y": 0.037,
+          "occupancy_indoor_fraction": 0.75,
+          "occupancy_outdoor_fraction": 0.083,
+          "skin_contact_fraction_indoor": 0.5,
+          "active_fraction_indoor": 0.083,
+          "passive_fraction_indoor": 0.667,
+          "skin_contact_fraction_outdoor": 0.178,
+          "active_fraction_outdoor": 0.083,
+          "passive_fraction_outdoor": 0.0,
+          "skin_soil_loading_indoor_mg_per_cm2": 0.06,
+          "skin_exposed_fraction_indoor": 0.22,
+          "skin_soil_loading_outdoor_mg_per_cm2": 1.0,
+          "skin_exposed_fraction_outdoor": 0.15
+        },
+        "adult": {
+          "soil_ingestion_kg_per_y": 0.022,
+          "occupancy_indoor_fraction": 0.833,
+          "occupancy_outdoor_fraction": 0.104,
+          "skin_contact_fraction_indoor": 0.5,
+          "active_fraction_indoor": 0.125,
+          "passive_fraction_indoor": 0.708,
+          "skin_contact_fraction_outdoor": 0.5,
+          "active_fraction_outdoor": 0.063,
+          "passive_fraction_outdoor": 0.042,
+          "skin_soil_loading_indoor_mg_per_cm2": 0.06,
+          "skin_exposed_fraction_indoor": 0.33,
+          "skin_soil_loading_outdoor_mg_per_cm2": 0.3,
+          "skin_exposed_fraction_outdoor": 0.26
+        }
+      }
+    },
+    {
+      "id": "Residential_without_Home_Grown_Produce",
+      "label": "Residential without Home-Grown Produce",
+      "area_hectares": 0.2,
+      "pathways": {
+        "external": true,
+        "soil_ingestion": true,
+        "skin": true,
+        "inhalation_dust": true,
+        "produce": false,
+        "radon_indoor": true
+      },
+      "dust": {
+        "fraction_indoor_dust_from_local_soil": 0.75,
+        "air_respirable_particles_kg_per_m3": 5e-08
+      },
+      "per_age": {
+        "infant": {
+          "soil_ingestion_kg_per_y": 0.055,
+          "occupancy_indoor_fraction": 0.875,
+          "occupancy_outdoor_fraction": 0.125,
+          "skin_contact_fraction_indoor": 0.5,
+          "active_fraction_indoor": 0.125,
+          "passive_fraction_indoor": 0.75,
+          "skin_contact_fraction_outdoor": 0.178,
+          "active_fraction_outdoor": 0.083,
+          "passive_fraction_outdoor": 0.042,
+          "skin_soil_loading_indoor_mg_per_cm2": 0.06,
+          "skin_exposed_fraction_indoor": 0.33,
+          "skin_soil_loading_outdoor_mg_per_cm2": 1.0,
+          "skin_exposed_fraction_outdoor": 0.26
+        },
+        "child": {
+          "soil_ingestion_kg_per_y": 0.037,
+          "occupancy_indoor_fraction": 0.75,
+          "occupancy_outdoor_fraction": 0.083,
+          "skin_contact_fraction_indoor": 0.5,
+          "active_fraction_indoor": 0.083,
+          "passive_fraction_indoor": 0.667,
+          "skin_contact_fraction_outdoor": 0.178,
+          "active_fraction_outdoor": 0.083,
+          "passive_fraction_outdoor": 0.0,
+          "skin_soil_loading_indoor_mg_per_cm2": 0.06,
+          "skin_exposed_fraction_indoor": 0.22,
+          "skin_soil_loading_outdoor_mg_per_cm2": 1.0,
+          "skin_exposed_fraction_outdoor": 0.15
+        },
+        "adult": {
+          "soil_ingestion_kg_per_y": 0.022,
+          "occupancy_indoor_fraction": 0.833,
+          "occupancy_outdoor_fraction": 0.104,
+          "skin_contact_fraction_indoor": 0.5,
+          "active_fraction_indoor": 0.125,
+          "passive_fraction_indoor": 0.708,
+          "skin_contact_fraction_outdoor": 0.5,
+          "active_fraction_outdoor": 0.063,
+          "passive_fraction_outdoor": 0.042,
+          "skin_soil_loading_indoor_mg_per_cm2": 0.06,
+          "skin_exposed_fraction_indoor": 0.33,
+          "skin_soil_loading_outdoor_mg_per_cm2": 0.3,
+          "skin_exposed_fraction_outdoor": 0.26
+        }
+      }
+    },
+    {
+      "id": "Allotments",
+      "label": "Allotments",
+      "area_hectares": 0.8,
+      "pathways": {
+        "external": true,
+        "soil_ingestion": true,
+        "skin": true,
+        "inhalation_dust": true,
+        "produce": true,
+        "radon_indoor": false
+      },
+      "dust": {
+        "fraction_indoor_dust_from_local_soil": 0.375,
+        "air_respirable_particles_kg_per_m3": 5e-08
+      },
+      "per_age": {
+        "infant": {
+          "soil_ingestion_kg_per_y": 0.055,
+          "occupancy_indoor_fraction": 0.875,
+          "occupancy_outdoor_fraction": 0.036,
+          "skin_contact_fraction_indoor": 0.5,
+          "active_fraction_indoor": 0.125,
+          "passive_fraction_indoor": 0.75,
+          "skin_contact_fraction_outdoor": 0.038,
+          "active_fraction_outdoor": 0.018,
+          "passive_fraction_outdoor": 0.018,
+          "skin_soil_loading_indoor_mg_per_cm2": 0.06,
+          "skin_exposed_fraction_indoor": 0.33,
+          "skin_soil_loading_outdoor_mg_per_cm2": 1.0,
+          "skin_exposed_fraction_outdoor": 0.26
+        },
+        "child": {
+          "soil_ingestion_kg_per_y": 0.037,
+          "occupancy_indoor_fraction": 0.75,
+          "occupancy_outdoor_fraction": 0.024,
+          "skin_contact_fraction_indoor": 0.5,
+          "active_fraction_indoor": 0.083,
+          "passive_fraction_indoor": 0.667,
+          "skin_contact_fraction_outdoor": 0.026,
+          "active_fraction_outdoor": 0.012,
+          "passive_fraction_outdoor": 0.012,
+          "skin_soil_loading_indoor_mg_per_cm2": 0.06,
+          "skin_exposed_fraction_indoor": 0.22,
+          "skin_soil_loading_outdoor_mg_per_cm2": 1.0,
+          "skin_exposed_fraction_outdoor": 0.15
+        },
+        "adult": {
+          "soil_ingestion_kg_per_y": 0.026,
+          "occupancy_indoor_fraction": 0.833,
+          "occupancy_outdoor_fraction": 0.095,
+          "skin_contact_fraction_indoor": 0.5,
+          "active_fraction_indoor": 0.125,
+          "passive_fraction_indoor": 0.708,
+          "skin_contact_fraction_outdoor": 0.285,
+          "active_fraction_outdoor": 0.047,
+          "passive_fraction_outdoor": 0.047,
+          "skin_soil_loading_indoor_mg_per_cm2": 0.06,
+          "skin_exposed_fraction_indoor": 0.33,
+          "skin_soil_loading_outdoor_mg_per_cm2": 0.3,
+          "skin_exposed_fraction_outdoor": 0.26
+        }
+      }
+    },
+    {
+      "id": "Commercial_Industrial",
+      "label": "Commercial/Industrial",
+      "area_hectares": 2.0,
+      "pathways": {
+        "external": true,
+        "soil_ingestion": true,
+        "skin": true,
+        "inhalation_dust": true,
+        "produce": false,
+        "radon_indoor": true
+      },
+      "dust": {
+        "fraction_indoor_dust_from_local_soil": 0.75,
+        "air_respirable_particles_kg_per_m3": 5e-08
+      },
+      "per_age": {
+        "adult": {
+          "soil_ingestion_kg_per_y": 0.0092,
+          "occupancy_indoor_fraction": 0.197,
+          "occupancy_outdoor_fraction": 0.019,
+          "skin_contact_fraction_indoor": 0.315,
+          "active_fraction_indoor": 0.052,
+          "passive_fraction_indoor": 0.144,
+          "skin_contact_fraction_outdoor": 0.233,
+          "active_fraction_outdoor": 0.013,
+          "passive_fraction_outdoor": 0.006,
+          "skin_soil_loading_indoor_mg_per_cm2": 0.14,
+          "skin_exposed_fraction_indoor": 0.07,
+          "skin_soil_loading_outdoor_mg_per_cm2": 0.14,
+          "skin_exposed_fraction_outdoor": 0.07
+        }
+      }
+    }
+  ]
+}

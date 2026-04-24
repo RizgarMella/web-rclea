@@ -1,0 +1,23 @@
+# RCLEA scenario template
+# Run with:  rclea assess -i scenario.yaml
+#
+# Valid scenario_id:
+#   Residential_with_Home_Grown_Produce
+#   Residential_without_Home_Grown_Produce
+#   Allotments
+#   Commercial_Industrial
+#
+# Valid age:      infant | child | adult
+# Valid sex:      male | female
+# Valid building: Timber | Concrete_Brick
+
+soil_concentrations_Bq_per_kg:
+  Cs-137: 500.0
+  Ra-226: 100.0
+  Sr-90:  200.0
+
+scenario_id: Residential_with_Home_Grown_Produce
+age: adult
+sex: male
+building_id: Timber
+fraction_land_contaminated: 1.0

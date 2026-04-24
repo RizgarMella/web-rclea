@@ -1,0 +1,22 @@
+{
+  "source": "BuildingType sheet, Library column",
+  "buildings": [
+    {
+      "id": "Timber",
+      "shielding_factor": 0.0,
+      "rn222_height_m": 3.0,
+      "rn222_ventilation_rate_per_s": 8.33e-05
+    },
+    {
+      "id": "Concrete_Brick",
+      "label": "Concrete/Brick",
+      "shielding_factor": 0.9,
+      "rn222_height_m": 3.0,
+      "rn222_ventilation_rate_per_s": 8.33e-05
+    }
+  ],
+  "global": {
+    "height_m": 3.0,
+    "ventilation_rate_per_s": 8.33e-05
+  }
+}

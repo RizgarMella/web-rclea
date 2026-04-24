@@ -1,0 +1,181 @@
+{
+  "source": "SoilAndPlant sheet, Library column",
+  "soil_global": {
+    "enrichment_factor": 3.0,
+    "water_filled_porosity": 0.25,
+    "total_porosity": 0.5,
+    "bulk_density_kg_per_m3": 1400.0,
+    "rn222_emanation_fraction": 0.2,
+    "rn222_effective_diffusion_m2_per_s": 2e-06
+  },
+  "elements": [
+    {
+      "id": "Ac",
+      "kd_m3_per_kg": 1.0,
+      "plant_uptake_affinity": 0.5,
+      "soil_to_plant_cf_fw_per_dw": 0.0004
+    },
+    {
+      "id": "Ag",
+      "kd_m3_per_kg": 0.1,
+      "plant_uptake_affinity": 5.0,
+      "soil_to_plant_cf_fw_per_dw": 0.04
+    },
+    {
+      "id": "Am",
+      "kd_m3_per_kg": 5.0,
+      "plant_uptake_affinity": 0.5,
+      "soil_to_plant_cf_fw_per_dw": 7e-05
+    },
+    {
+      "id": "C",
+      "kd_m3_per_kg": 0.02,
+      "plant_uptake_affinity": 5.0,
+      "soil_to_plant_cf_fw_per_dw": 0.2
+    },
+    {
+      "id": "Co",
+      "kd_m3_per_kg": 0.5,
+      "plant_uptake_affinity": 5.0,
+      "soil_to_plant_cf_fw_per_dw": 0.007
+    },
+    {
+      "id": "Cs",
+      "kd_m3_per_kg": 1.0,
+      "plant_uptake_affinity": 5.0,
+      "soil_to_plant_cf_fw_per_dw": 0.004
+    },
+    {
+      "id": "Eu",
+      "kd_m3_per_kg": 0.8,
+      "plant_uptake_affinity": 0.5,
+      "soil_to_plant_cf_fw_per_dw": 0.0004
+    },
+    {
+      "id": "Fe",
+      "kd_m3_per_kg": 0.5,
+      "plant_uptake_affinity": 5.0,
+      "soil_to_plant_cf_fw_per_dw": 0.007
+    },
+    {
+      "id": "H",
+      "kd_m3_per_kg": 0.0,
+      "plant_uptake_affinity": 0.0,
+      "soil_to_plant_cf_fw_per_dw": 6.0
+    },
+    {
+      "id": "I",
+      "kd_m3_per_kg": 0.02,
+      "plant_uptake_affinity": 0.1,
+      "soil_to_plant_cf_fw_per_dw": 0.004
+    },
+    {
+      "id": "K",
+      "kd_m3_per_kg": 0.2,
+      "plant_uptake_affinity": 50.0,
+      "soil_to_plant_cf_fw_per_dw": 0.2
+    },
+    {
+      "id": "Mo",
+      "kd_m3_per_kg": 0.05,
+      "plant_uptake_affinity": 5.0,
+      "soil_to_plant_cf_fw_per_dw": 0.07
+    },
+    {
+      "id": "Nb",
+      "kd_m3_per_kg": 0.5,
+      "plant_uptake_affinity": 0.5,
+      "soil_to_plant_cf_fw_per_dw": 0.0004
+    },
+    {
+      "id": "Ni",
+      "kd_m3_per_kg": 0.5,
+      "plant_uptake_affinity": 5.0,
+      "soil_to_plant_cf_fw_per_dw": 0.007
+    },
+    {
+      "id": "Np",
+      "kd_m3_per_kg": 0.03,
+      "plant_uptake_affinity": 0.5,
+      "soil_to_plant_cf_fw_per_dw": 0.01
+    },
+    {
+      "id": "Pa",
+      "kd_m3_per_kg": 1.0,
+      "plant_uptake_affinity": 0.5,
+      "soil_to_plant_cf_fw_per_dw": 0.0004
+    },
+    {
+      "id": "Pb",
+      "kd_m3_per_kg": 1.0,
+      "plant_uptake_affinity": 5.0,
+      "soil_to_plant_cf_fw_per_dw": 0.004
+    },
+    {
+      "id": "Pm",
+      "kd_m3_per_kg": 0.8,
+      "plant_uptake_affinity": 0.5,
+      "soil_to_plant_cf_fw_per_dw": 0.0004
+    },
+    {
+      "id": "Pu",
+      "kd_m3_per_kg": 1.0,
+      "plant_uptake_affinity": 0.5,
+      "soil_to_plant_cf_fw_per_dw": 0.0004
+    },
+    {
+      "id": "Ra",
+      "kd_m3_per_kg": 5.0,
+      "plant_uptake_affinity": 5.0,
+      "soil_to_plant_cf_fw_per_dw": 0.0007
+    },
+    {
+      "id": "Sb",
+      "kd_m3_per_kg": 0.1,
+      "plant_uptake_affinity": 5.0,
+      "soil_to_plant_cf_fw_per_dw": 0.04
+    },
+    {
+      "id": "Se",
+      "kd_m3_per_kg": 0.05,
+      "plant_uptake_affinity": 50.0,
+      "soil_to_plant_cf_fw_per_dw": 0.7
+    },
+    {
+      "id": "Sm",
+      "kd_m3_per_kg": 0.8,
+      "plant_uptake_affinity": 0.5,
+      "soil_to_plant_cf_fw_per_dw": 0.0004
+    },
+    {
+      "id": "Sn",
+      "kd_m3_per_kg": 0.5,
+      "plant_uptake_affinity": 5.0,
+      "soil_to_plant_cf_fw_per_dw": 0.007
+    },
+    {
+      "id": "Sr",
+      "kd_m3_per_kg": 0.02,
+      "plant_uptake_affinity": 5.0,
+      "soil_to_plant_cf_fw_per_dw": 0.2
+    },
+    {
+      "id": "Tc",
+      "kd_m3_per_kg": 0.0001,
+      "plant_uptake_affinity": 5.0,
+      "soil_to_plant_cf_fw_per_dw": 8.0
+    },
+    {
+      "id": "Th",
+      "kd_m3_per_kg": 3.0,
+      "plant_uptake_affinity": 0.5,
+      "soil_to_plant_cf_fw_per_dw": 0.0001
+    },
+    {
+      "id": "U",
+      "kd_m3_per_kg": 0.05,
+      "plant_uptake_affinity": 0.5,
+      "soil_to_plant_cf_fw_per_dw": 0.007
+    }
+  ]
+}

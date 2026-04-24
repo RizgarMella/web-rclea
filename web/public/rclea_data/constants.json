@@ -1,0 +1,10 @@
+{
+  "effective_dose_criterion_mSv_per_y": 3.0,
+  "equivalent_skin_dose_criterion_mSv_per_y": 50.0,
+  "hours_per_year": 8760.0,
+  "Sv_per_mSv": 0.001,
+  "default_fraction_land_contaminated": 1.0,
+  "rho_B_soil_bulk_density_kg_per_m3": 1400.0,
+  "uv_tissue_weighting_factor": 0.01,
+  "dust_loading_kg_per_m3": 5e-08
+}

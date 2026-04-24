@@ -1,0 +1,875 @@
+{
+  "source": "RCLEA_software_application.xls / EffectiveDose+EquivDose sheets, Library column",
+  "radon": {
+    "rn222_inhalation_Sv_per_h_per_Bq_per_m3": 9e-09,
+    "rn222_equilibrium_factor": 0.4,
+    "rn222_decay_constant_per_s": 2.1e-06,
+    "default_rn222_conversion_Bq_m3_per_Bq_kg": 3.0
+  },
+  "isotopes": [
+    {
+      "id": "H-3",
+      "name": "H-3",
+      "element": "H",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.2e-10,
+        "child": 5.7e-11,
+        "adult": 4.2e-11
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 2.7e-10,
+        "child": 8.2e-11,
+        "adult": 4.5e-11
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 0.0,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.0
+    },
+    {
+      "id": "C-14",
+      "name": "C-14",
+      "element": "C",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.6e-09,
+        "child": 8e-10,
+        "adult": 5.8e-10
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 6.6e-09,
+        "child": 2.8e-09,
+        "adult": 2e-09
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 2.3e-15,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0079,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.0
+    },
+    {
+      "id": "K-40",
+      "name": "K-40",
+      "element": "K",
+      "ingestion_Sv_per_Bq": {
+        "infant": 4.2e-08,
+        "child": 1.3e-08,
+        "adult": 6.2e-09
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.7e-08,
+        "child": 4.5e-09,
+        "adult": 2.1e-09
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1.8e-10,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.021,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 7e-05
+    },
+    {
+      "id": "Fe-55",
+      "name": "Fe-55",
+      "element": "Fe",
+      "ingestion_Sv_per_Bq": {
+        "infant": 2.4e-09,
+        "child": 1.1e-09,
+        "adult": 3.3e-10
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.4e-09,
+        "child": 6.2e-10,
+        "adult": 3.8e-10
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 0.0,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00014
+    },
+    {
+      "id": "Co-60",
+      "name": "Co-60",
+      "element": "Co",
+      "ingestion_Sv_per_Bq": {
+        "infant": 2.7e-08,
+        "child": 1.1e-08,
+        "adult": 3.4e-09
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 3.4e-08,
+        "child": 1.5e-08,
+        "adult": 1e-08
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 2.7e-09,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.016,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.0011
+    },
+    {
+      "id": "Ni-63",
+      "name": "Ni-63",
+      "element": "Ni",
+      "ingestion_Sv_per_Bq": {
+        "infant": 8.4e-10,
+        "child": 2.8e-10,
+        "adult": 1.5e-10
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.9e-09,
+        "child": 7e-10,
+        "adult": 4.8e-10
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 0.0,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.00016,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.0
+    },
+    {
+      "id": "Se-79",
+      "name": "Se-79",
+      "element": "Se",
+      "ingestion_Sv_per_Bq": {
+        "infant": 2.8e-08,
+        "child": 1.4e-08,
+        "adult": 2.9e-09
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.3e-08,
+        "child": 5.6e-09,
+        "adult": 1.1e-09
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 3.1e-15,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.0
+    },
+    {
+      "id": "Sr-90",
+      "name": "Sr-90",
+      "element": "Sr",
+      "ingestion_Sv_per_Bq": {
+        "infant": 9.3e-08,
+        "child": 6.6e-08,
+        "adult": 3.1e-08
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.2e-07,
+        "child": 5.4e-08,
+        "adult": 3.8e-08
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 4.2e-12,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.045,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 2.1e-08
+    },
+    {
+      "id": "Nb-93m",
+      "name": "Nb-93m",
+      "element": "Nb",
+      "ingestion_Sv_per_Bq": {
+        "infant": 9.1e-10,
+        "child": 2.7e-10,
+        "adult": 1.2e-10
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 2.4e-09,
+        "child": 8.2e-10,
+        "adult": 5.1e-10
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1.8e-14,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 1e-06
+    },
+    {
+      "id": "Nb-94",
+      "name": "Nb-94",
+      "element": "Nb",
+      "ingestion_Sv_per_Bq": {
+        "infant": 9.7e-09,
+        "child": 3.4e-09,
+        "adult": 1.7e-09
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 3.7e-08,
+        "child": 1.6e-08,
+        "adult": 1.1e-08
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1.6e-09,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.019,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00083
+    },
+    {
+      "id": "Mo-93",
+      "name": "Mo-93",
+      "element": "Mo",
+      "ingestion_Sv_per_Bq": {
+        "infant": 6.9e-09,
+        "child": 4e-09,
+        "adult": 3.1e-09
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.8e-09,
+        "child": 7.9e-10,
+        "adult": 5.9e-10
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1e-13,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 5.5e-06
+    },
+    {
+      "id": "Tc-99",
+      "name": "Tc-99",
+      "element": "Tc",
+      "ingestion_Sv_per_Bq": {
+        "infant": 4.8e-09,
+        "child": 1.3e-09,
+        "adult": 6.4e-10
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.3e-08,
+        "child": 5.7e-09,
+        "adult": 4e-09
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 2.1e-14,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.014,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.0
+    },
+    {
+      "id": "Ag-108m",
+      "name": "Ag-108m",
+      "element": "Ag",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.1e-08,
+        "child": 4.3e-09,
+        "adult": 2.3e-09
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 2.7e-08,
+        "child": 1.1e-08,
+        "adult": 7.4e-09
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1.6e-09,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0024,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00088
+    },
+    {
+      "id": "Sn-121m",
+      "name": "Sn-121m",
+      "element": "Sn",
+      "ingestion_Sv_per_Bq": {
+        "infant": 4e-09,
+        "child": 1.2e-09,
+        "adult": 5.6e-10
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.6e-08,
+        "child": 6.7e-09,
+        "adult": 4.7e-09
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 3.6e-13,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.0
+    },
+    {
+      "id": "Sn-126",
+      "name": "Sn-126",
+      "element": "Sn",
+      "ingestion_Sv_per_Bq": {
+        "infant": 3e-08,
+        "child": 9.8e-09,
+        "adult": 4.7e-09
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1e-07,
+        "child": 4.1e-08,
+        "adult": 2.8e-08
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 2.5e-11,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.0
+    },
+    {
+      "id": "Sb-125",
+      "name": "Sb-125",
+      "element": "Sb",
+      "ingestion_Sv_per_Bq": {
+        "infant": 6.1e-09,
+        "child": 2.1e-09,
+        "adult": 1.1e-09
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.6e-08,
+        "child": 6.8e-09,
+        "adult": 4.8e-09
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 4.1e-10,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.012,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00027
+    },
+    {
+      "id": "I-129",
+      "name": "I-129",
+      "element": "I",
+      "ingestion_Sv_per_Bq": {
+        "infant": 2.2e-07,
+        "child": 1.9e-07,
+        "adult": 1.1e-07
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 8.6e-08,
+        "child": 6.7e-08,
+        "adult": 3.6e-08
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 2.2e-12,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0057,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 8.5e-05
+    },
+    {
+      "id": "Cs-134",
+      "name": "Cs-134",
+      "element": "Cs",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.6e-08,
+        "child": 1.4e-08,
+        "adult": 1.9e-08
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 7.3e-09,
+        "child": 5.3e-09,
+        "adult": 6.6e-09
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1.6e-09,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.016,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00077
+    },
+    {
+      "id": "Cs-137",
+      "name": "Cs-137",
+      "element": "Cs",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.2e-08,
+        "child": 1e-08,
+        "adult": 1.3e-08
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 5.4e-09,
+        "child": 3.7e-09,
+        "adult": 4.6e-09
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 6.1e-10,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.022,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00029
+    },
+    {
+      "id": "Pm-147",
+      "name": "Pm-147",
+      "element": "Pm",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.9e-09,
+        "child": 5.7e-10,
+        "adult": 2.6e-10
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.8e-08,
+        "child": 7e-09,
+        "adult": 5e-09
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 8.5e-15,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.011,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 4.3e-09
+    },
+    {
+      "id": "Sm-147",
+      "name": "Sm-147",
+      "element": "Sm",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.4e-07,
+        "child": 6.4e-08,
+        "adult": 4.9e-08
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 2.3e-05,
+        "child": 1.1e-05,
+        "adult": 9.6e-06
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 0.0,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.0
+    },
+    {
+      "id": "Sm-151",
+      "name": "Sm-151",
+      "element": "Sm",
+      "ingestion_Sv_per_Bq": {
+        "infant": 6.4e-10,
+        "child": 2e-10,
+        "adult": 9.8e-11
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1e-08,
+        "child": 4.5e-09,
+        "adult": 4e-09
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1.7e-16,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.00025,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 7e-09
+    },
+    {
+      "id": "Eu-152",
+      "name": "Eu-152",
+      "element": "Eu",
+      "ingestion_Sv_per_Bq": {
+        "infant": 7.4e-09,
+        "child": 2.6e-09,
+        "adult": 1.4e-09
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1e-07,
+        "child": 4.9e-08,
+        "adult": 4.2e-08
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1.2e-09,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.014,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.0006
+    },
+    {
+      "id": "Eu-154",
+      "name": "Eu-154",
+      "element": "Eu",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.2e-08,
+        "child": 4.1e-09,
+        "adult": 2e-09
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.5e-07,
+        "child": 6.5e-08,
+        "adult": 5.3e-08
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1.3e-09,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.03,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00065
+    },
+    {
+      "id": "Eu-155",
+      "name": "Eu-155",
+      "element": "Eu",
+      "ingestion_Sv_per_Bq": {
+        "infant": 2.2e-09,
+        "child": 6.8e-10,
+        "adult": 3.2e-10
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 2.3e-08,
+        "child": 9.2e-09,
+        "adult": 6.9e-09
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 3.1e-11,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0076,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 3e-05
+    },
+    {
+      "id": "Pb-210",
+      "name": "Pb-210",
+      "element": "Pb",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.2e-05,
+        "child": 4.5e-06,
+        "adult": 1.9e-06
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.5e-05,
+        "child": 6.2e-06,
+        "adult": 4.5e-06
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1e-12,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.023,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 7.3e-05
+    },
+    {
+      "id": "Ra-226",
+      "name": "Ra-226",
+      "element": "Ra",
+      "ingestion_Sv_per_Bq": {
+        "infant": 9.6e-07,
+        "child": 8e-07,
+        "adult": 2.8e-07
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.1e-05,
+        "child": 4.9e-06,
+        "adult": 3.5e-06
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1.9e-09,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.052,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00096
+    },
+    {
+      "id": "Ra-228",
+      "name": "Ra-228",
+      "element": "Ra",
+      "ingestion_Sv_per_Bq": {
+        "infant": 5.7e-06,
+        "child": 3.9e-06,
+        "adult": 6.9e-07
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1e-05,
+        "child": 4.7e-06,
+        "adult": 2.6e-06
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1e-09,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.027,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00051
+    },
+    {
+      "id": "Ac-227",
+      "name": "Ac-227",
+      "element": "Ac",
+      "ingestion_Sv_per_Bq": {
+        "infant": 4.3e-06,
+        "child": 2e-06,
+        "adult": 1.2e-06
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 0.0017,
+        "child": 0.00074,
+        "adult": 0.00057
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 3.4e-10,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.0
+    },
+    {
+      "id": "Th-228",
+      "name": "Th-228",
+      "element": "Th",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.1e-06,
+        "child": 4.3e-07,
+        "adult": 1.4e-07
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 0.00014,
+        "child": 5.9e-05,
+        "adult": 4.3e-05
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1.7e-09,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.056,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00088
+    },
+    {
+      "id": "Th-229",
+      "name": "Th-229",
+      "element": "Th",
+      "ingestion_Sv_per_Bq": {
+        "infant": 2.4e-06,
+        "child": 1.2e-06,
+        "adult": 6.1e-07
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 0.00023,
+        "child": 0.00011,
+        "adult": 8.6e-05
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 2.7e-10,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.055,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00064
+    },
+    {
+      "id": "Th-230",
+      "name": "Th-230",
+      "element": "Th",
+      "ingestion_Sv_per_Bq": {
+        "infant": 4.1e-07,
+        "child": 2.4e-07,
+        "adult": 2.1e-07
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 3.5e-05,
+        "child": 1.6e-05,
+        "adult": 1.4e-05
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 2e-13,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.00091,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 3.3e-05
+    },
+    {
+      "id": "Th-232",
+      "name": "Th-232",
+      "element": "Th",
+      "ingestion_Sv_per_Bq": {
+        "infant": 4.5e-07,
+        "child": 2.9e-07,
+        "adult": 2.3e-07
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 5e-05,
+        "child": 2.6e-05,
+        "adult": 2.5e-05
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 8.8e-14,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.083,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.0014
+    },
+    {
+      "id": "Natural Th",
+      "name": "Natural Th",
+      "element": "Th",
+      "ingestion_Sv_per_Bq": {
+        "infant": 2.55e-06,
+        "child": 1.62e-06,
+        "adult": 4.25e-06
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 7.8e-05,
+        "child": 3.53e-05,
+        "adult": 2.83e-05
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 9.1e-10,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.055,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00095
+    },
+    {
+      "id": "Pa-231",
+      "name": "Pa-231",
+      "element": "Pa",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.3e-06,
+        "child": 9.2e-07,
+        "adult": 7.1e-07
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 0.00023,
+        "child": 0.00015,
+        "adult": 0.00014
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 3.2e-11,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0013,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 2.5e-05
+    },
+    {
+      "id": "U-233",
+      "name": "U-233",
+      "element": "U",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.4e-07,
+        "child": 7.8e-08,
+        "adult": 5.1e-08
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.1e-05,
+        "child": 4.9e-06,
+        "adult": 3.6e-06
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 2.4e-13,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 4.6e-05,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 1.5e-05
+    },
+    {
+      "id": "U-234",
+      "name": "U-234",
+      "element": "U",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.3e-07,
+        "child": 7.4e-08,
+        "adult": 4.9e-08
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.1e-05,
+        "child": 4.8e-06,
+        "adult": 3.5e-06
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 6.8e-14,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 6.5e-05,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 2.4e-05
+    },
+    {
+      "id": "U-235",
+      "name": "U-235",
+      "element": "U",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.3e-07,
+        "child": 7.2e-08,
+        "adult": 4.7e-08
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1e-05,
+        "child": 4.3e-06,
+        "adult": 3.1e-06
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1.3e-10,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.022,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 9.5e-05
+    },
+    {
+      "id": "U-236",
+      "name": "U-236",
+      "element": "U",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.3e-07,
+        "child": 7e-08,
+        "adult": 4.7e-08
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1e-05,
+        "child": 4.5e-06,
+        "adult": 3.2e-06
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 3.6e-14,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 4e-05,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 8.3e-07
+    },
+    {
+      "id": "U-238",
+      "name": "U-238",
+      "element": "U",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.5e-07,
+        "child": 7.5e-08,
+        "adult": 4.8e-08
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 9.4e-06,
+        "child": 4e-06,
+        "adult": 2.9e-06
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 2.3e-11,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.033,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 8.5e-05
+    },
+    {
+      "id": "Natural U",
+      "name": "Natural U",
+      "element": "U",
+      "ingestion_Sv_per_Bq": {
+        "infant": 1.4e-07,
+        "child": 7.5e-08,
+        "adult": 4.9e-08
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1e-05,
+        "child": 4.4e-06,
+        "adult": 3.2e-06
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1.4e-11,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.017,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 5.5e-05
+    },
+    {
+      "id": "Np-237",
+      "name": "Np-237",
+      "element": "Np",
+      "ingestion_Sv_per_Bq": {
+        "infant": 2.1e-07,
+        "child": 1.1e-07,
+        "adult": 1.1e-07
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 4e-05,
+        "child": 2.2e-05,
+        "adult": 2.3e-05
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 1.9e-10,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.03,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00048
+    },
+    {
+      "id": "Pu-238",
+      "name": "Pu-238",
+      "element": "Pu",
+      "ingestion_Sv_per_Bq": {
+        "infant": 4e-07,
+        "child": 2.4e-07,
+        "adult": 2.3e-07
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 7.4e-05,
+        "child": 4.4e-05,
+        "adult": 4.6e-05
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 2.6e-14,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.00093,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 2.4e-05
+    },
+    {
+      "id": "Pu-239",
+      "name": "Pu-239",
+      "element": "Pu",
+      "ingestion_Sv_per_Bq": {
+        "infant": 4.2e-07,
+        "child": 2.7e-07,
+        "adult": 2.5e-07
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 7.7e-05,
+        "child": 4.8e-05,
+        "adult": 5e-05
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 5e-14,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 3.8e-06,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 8.8e-06
+    },
+    {
+      "id": "Pu-240",
+      "name": "Pu-240",
+      "element": "Pu",
+      "ingestion_Sv_per_Bq": {
+        "infant": 4.2e-07,
+        "child": 2.7e-07,
+        "adult": 2.5e-07
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 7.7e-05,
+        "child": 4.8e-05,
+        "adult": 5e-05
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 2.5e-14,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 9.1e-07
+    },
+    {
+      "id": "Pu-241",
+      "name": "Pu-241",
+      "element": "Pu",
+      "ingestion_Sv_per_Bq": {
+        "infant": 5.7e-09,
+        "child": 5.1e-09,
+        "adult": 4.8e-09
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 9.7e-07,
+        "child": 8.3e-07,
+        "adult": 9e-07
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 3.2e-15,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 4.2e-07,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 1.6e-08
+    },
+    {
+      "id": "Am-241",
+      "name": "Am-241",
+      "element": "Am",
+      "ingestion_Sv_per_Bq": {
+        "infant": 3.7e-07,
+        "child": 2.2e-07,
+        "adult": 2e-07
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 6.9e-05,
+        "child": 4e-05,
+        "adult": 4.2e-05
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 7.4e-12,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.00048,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.00015
+    },
+    {
+      "id": "Po-210",
+      "name": "Polonium-210",
+      "element": "Po",
+      "ingestion_Sv_per_Bq": {
+        "infant": 2.6e-05,
+        "child": 4.4e-06,
+        "adult": 1.2e-06
+      },
+      "inhalation_Sv_per_Bq": {
+        "infant": 1.5e-05,
+        "child": 6e-06,
+        "adult": 4.3e-06
+      },
+      "external_Sv_per_y_per_Bq_per_m3": 4e-16,
+      "skin_beta_Sv_per_y_per_Bq_per_cm2": 0.0,
+      "skin_gamma_Sv_per_y_per_Bq_per_cm2": 0.0
+    }
+  ]
+}

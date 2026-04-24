@@ -1,0 +1,46 @@
+{
+  "pathways": [
+    {
+      "id": "external",
+      "label": "Whole-body external irradiation",
+      "unit": "mSv/y",
+      "short": "Gamma dose from radionuclides in the soil, integrated over indoor and outdoor occupancy. Indoor dose is reduced by the building shielding factor.",
+      "equation": "D_ext = sum_i C_i * rho_B * DCF_ext,i * [O_in * (1 - SF_building) + O_out] * f_contam"
+    },
+    {
+      "id": "soil_ingestion",
+      "label": "Inadvertent soil ingestion",
+      "unit": "mSv/y",
+      "short": "Dose from unintentionally swallowing small amounts of contaminated soil or indoor dust derived from it. Age-dependent.",
+      "equation": "D_ing = sum_i C_i * I_soil(age,land_use) * DCF_ing,i(age) * f_contam"
+    },
+    {
+      "id": "inhalation_dust",
+      "label": "Inhalation of resuspended soil/dust",
+      "unit": "mSv/y",
+      "short": "Dose from breathing airborne dust particles derived from contaminated soil. Uses a respirable-dust loading and fraction of indoor dust from local soil.",
+      "equation": "A_air = C_i * rho_air * F_dust (indoor) or C_i * rho_air (outdoor); D_inh = sum_i A_air * RR * O * 8760 * DCF_inh,i(age) * f_contam"
+    },
+    {
+      "id": "skin",
+      "label": "Skin equivalent dose (beta+gamma)",
+      "unit": "mSv/y",
+      "short": "Dose to the skin from radionuclides in soil deposited on exposed skin surfaces, indoors and outdoors.",
+      "equation": "D_skin = sum_i C_i * rho_skin * A_skin * O_SC * (DCF_beta + DCF_gamma) * f_contam"
+    },
+    {
+      "id": "produce",
+      "label": "Consumption of home-grown produce",
+      "unit": "mSv/y",
+      "short": "Dose from eating vegetables grown on contaminated land. Combines soil-to-plant uptake (element-specific) and soil adhering to vegetables.",
+      "equation": "D_prod = sum_i sum_crops C_i * (CF_veg(element) + SL_veg(crop)) * CR(age,crop) * BW * HF(crop) * DCF_ing,i(age) * f_contam"
+    },
+    {
+      "id": "radon_indoor",
+      "label": "Inhalation of indoor Rn-222 gas",
+      "unit": "mSv/y",
+      "short": "Dose from radon gas accumulating indoors, originating from Ra-226 in soil. Only included when Ra-226 is present.",
+      "equation": "C_Rn = K_Rn * C_Ra226; D_rn = C_Rn * F_eq * DCF_Rn * O_in_hours"
+    }
+  ]
+}

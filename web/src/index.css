@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --rclea-banner-height: 48px;
+  }
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased;
+  }
+  input, select, textarea {
+    @apply bg-white text-slate-900;
+    color-scheme: light;
+  }
+  input::placeholder, textarea::placeholder {
+    @apply text-slate-400;
+  }
+  h1 {
+    @apply text-3xl font-bold text-rclea-900;
+  }
+  h2 {
+    @apply text-2xl font-semibold text-rclea-700 mt-8 mb-3;
+  }
+  h3 {
+    @apply text-lg font-semibold text-rclea-700 mt-6 mb-2;
+  }
+  p {
+    @apply my-3 leading-relaxed;
+  }
+  code {
+    @apply font-mono text-sm bg-slate-100 rounded px-1;
+  }
+  pre code {
+    @apply bg-transparent p-0;
+  }
+  pre {
+    @apply bg-slate-900 text-slate-100 rounded p-3 text-sm overflow-x-auto;
+  }
+  table {
+    @apply border-collapse my-4;
+  }
+  th, td {
+    @apply border border-slate-300 px-3 py-2 text-left;
+  }
+  th {
+    @apply bg-slate-100 font-semibold;
+  }
+  a {
+    @apply text-rclea-500 underline;
+  }
+}
