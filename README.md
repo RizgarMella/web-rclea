@@ -50,7 +50,7 @@ Both the web app and the CLI invoke the **same** Python calculation engine (`rcl
 
 RCLEA is the UK screening methodology for estimating the annual effective dose received by a representative person from radioactive contamination in soil. It sits under Part 2A of the Environmental Protection Act 1990 (as amended for radioactivity by the 2006 and 2018 regulations). Results are compared against the **3 mSv/y** effective-dose criterion that defines "significant harm" under the statutory guidance.
 
-The official tool is an Excel 97–2003 workbook (`Resouces/RCLEA_software_application.xls`) with VBA macros. It has reached end-of-life as a platform: the `.xls` format is obsolete, macros are blocked by modern IT policy, extending the catalogue requires cell editing, there is no test coverage, and the tool cannot run on mobile or in a browser.
+The official tool is an Excel 97–2003 workbook (`RCLEA_software_application.xls`) with VBA macros. It has reached end-of-life as a platform: the `.xls` format is obsolete, macros are blocked by modern IT policy, extending the catalogue requires cell editing, there is no test coverage, and the tool cannot run on mobile or in a browser.
 
 This project rebuilds the tool from the published methodology (CRCE-RAD-003-2020, CLR-13, the Part 2A Statutory Guidance) **feature-complete with the original workbook** across 18 sheets:
 
@@ -873,8 +873,6 @@ rclea/
 │   ├── test_analysis.py                worst-case + RSGV round-trip
 │   ├── test_extensibility.py
 │   └── test_tutorial_fences.py
-│
-└── Resouces/                original reference materials (not shipped)
 ```
 
 ### 10.3 Disclaimer surfaces (six)
@@ -951,7 +949,7 @@ python -m twine upload dist/*
 
 ## 13. References
 
-**Primary materials** (in `Resouces/`): RCLEA software workbook, UKHSA CRCE-RAD-003-2020, Environment Agency CLR-13, Part 2A Statutory Guidance (2018).
+**Primary materials**: RCLEA software workbook, UKHSA CRCE-RAD-003-2020, Environment Agency CLR-13, Part 2A Statutory Guidance (2018).
 
 **Legislation**: Environmental Protection Act 1990 Part 2A (as amended); Radioactive Contaminated Land (Enabling Powers) (England) Regulations 2005/2010/2018; Council Directive 2013/59/Euratom.
 
